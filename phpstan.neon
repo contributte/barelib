@@ -2,8 +2,8 @@ includes:
 	- vendor/contributte/phpstan/phpstan.neon
 
 parameters:
-	level: {{PHPSTAN_LEVEL}}
-	phpVersion: {{PHP_MIN_VERSION}}
+	level: 9
+	phpVersion: 80200
 
 	scanDirectories:
 		- src

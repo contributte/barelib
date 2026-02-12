@@ -1,10 +1,10 @@
 {
-  "name": "{{ORGANIZATION}}/{{PROJECT}}",
-  "description": "{{DESCRIPTION}}",
-  "keywords": ["{{KEYWORDS}}", "{{KEYWORDS}}"],
+  "name": "contributte/barelib",
+  "description": "Template library for AI-driven Contributte package generation",
+  "keywords": ["nette", "contributte", "template"],
   "type": "library",
   "license": "MIT",
-  "homepage": "https://github.com/{{ORGANIZATION}}/{{PROJECT}}",
+  "homepage": "https://github.com/contributte/barelib",
   "authors": [
     {
       "name": "Milan Felix Šulc",
@@ -12,8 +12,9 @@
     }
   ],
   "require": {
-    "php": ">={{PHP_MIN_VERSION}}",
-    "contributte/application": "^0.5.2 || ^0.6.0"
+    "php": ">=8.2",
+    "contributte/application": "^0.5.2 || ^0.6.0",
+    "nette/di": "^3.2"
   },
   "require-dev": {
     "contributte/qa": "^0.4.0",
@@ -23,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "{{ORGANIZATION}}\\{{PROJECT}}\\": "src"
+      "Contributte\\Barelib\\": "src"
     }
   },
   "autoload-dev": {

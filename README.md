@@ -1,14 +1,14 @@
-![](https://heatbadger.vercel.app/github/readme/{{ORGANIZATION}}/{{PROJECT}}/)
+![](https://heatbadger.vercel.app/github/readme/contributte/barelib/)
 
 <p align=center>
-  <a href="https://github.com/{{ORGANIZATION}}/{{PROJECT}}/actions"><img src="https://badgen.net/github/checks/{{ORGANIZATION}}/{{PROJECT}}/master?cache=300"></a>
-  <a href="https://coveralls.io/r/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/coveralls/c/github/{{ORGANIZATION}}/{{PROJECT}}?cache=300"></a>
-  <a href="https://packagist.org/packages/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/packagist/dm/{{ORGANIZATION}}/{{PROJECT}}"></a>
-  <a href="https://packagist.org/packages/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/packagist/v/{{ORGANIZATION}}/{{PROJECT}}"></a>
+  <a href="https://github.com/contributte/barelib/actions"><img src="https://badgen.net/github/checks/contributte/barelib/master?cache=300"></a>
+  <a href="https://coveralls.io/r/contributte/barelib"><img src="https://badgen.net/coveralls/c/github/contributte/barelib?cache=300"></a>
+  <a href="https://packagist.org/packages/contributte/barelib"><img src="https://badgen.net/packagist/dm/contributte/barelib"></a>
+  <a href="https://packagist.org/packages/contributte/barelib"><img src="https://badgen.net/packagist/v/contributte/barelib"></a>
 </p>
 <p align=center>
-  <a href="https://packagist.org/packages/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/packagist/php/{{ORGANIZATION}}/{{PROJECT}}"></a>
-  <a href="https://github.com/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/github/license/{{ORGANIZATION}}/{{PROJECT}}"></a>
+  <a href="https://packagist.org/packages/contributte/barelib"><img src="https://badgen.net/packagist/php/contributte/barelib"></a>
+  <a href="https://github.com/contributte/barelib"><img src="https://badgen.net/github/license/contributte/barelib"></a>
   <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
   <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
 </p>
@@ -19,10 +19,10 @@ Website <a href="https://contributte.org">contributte.org</a> | Contact <a href=
 
 ## Usage
 
-To install the latest version of `{{ORGANIZATION}}/{{PROJECT}}` use [Composer](https://getcomposer.org).
+To install the latest version of `contributte/barelib` use [Composer](https://getcomposer.org).
 
 ```
-composer require {{ORGANIZATION}}/{{PROJECT}}
+composer require contributte/barelib
 ```
 
 ## Documentation
@@ -33,8 +33,8 @@ For details on how to use this package, check out our [documentation](.docs).
 
 | State       | Version | Branch   | Nette  | PHP     |
 |-------------|---------|----------|--------|---------|
-| dev         | `^0.1`  | `master` | `3.2+` | `>={{PHP_MIN_VERSION}}` |
-| stable      | `^0.1`  | `master` | `3.2+` | `>={{PHP_MIN_VERSION}}` |
+| dev         | `^0.1`  | `master` | `3.2+` | `>=8.2` |
+| stable      | `^0.1`  | `master` | `3.2+` | `>=8.2` |
 
 ## Development
 

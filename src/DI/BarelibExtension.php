@@ -1,6 +1,6 @@
-<?php declare(strict_types=1);
+<?php declare(strict_types = 1);
 
-namespace {{ORGANIZATION}}\{{PROJECT}}\DI;
+namespace Contributte\Barelib\DI;
 
 use Nette\DI\CompilerExtension;
 
@@ -9,7 +9,7 @@ use Nette\DI\CompilerExtension;
  *
  * @see https://doc.nette.org/en/dependency-injection/nette-container
  */
-class {{PROJECT}}Extension extends CompilerExtension
+class BarelibExtension extends CompilerExtension
 {
 
 	public function loadConfiguration(): void
