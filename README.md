@@ -2,7 +2,7 @@
 
 <p align=center>
   <a href="https://github.com/{{ORGANIZATION}}/{{PROJECT}}/actions"><img src="https://badgen.net/github/checks/{{ORGANIZATION}}/{{PROJECT}}/master?cache=300"></a>
-  <a href="https://coveralls.io/r/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/coveralls/c/github/{{ORGANIZATION}}/{{PROJECT}}?cache=300"></a>
+  <a href="https://codecov.io/gh/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/codecov/c/github/{{ORGANIZATION}}/{{PROJECT}}"></a>
   <a href="https://packagist.org/packages/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/packagist/dm/{{ORGANIZATION}}/{{PROJECT}}"></a>
   <a href="https://packagist.org/packages/{{ORGANIZATION}}/{{PROJECT}}"><img src="https://badgen.net/packagist/v/{{ORGANIZATION}}/{{PROJECT}}"></a>
 </p>
