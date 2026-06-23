@@ -17,17 +17,7 @@
 Website <a href="https://contributte.org">contributte.org</a> | Contact <a href="https://f3l1x.io">f3l1x.io</a> | Twitter <a href="https://twitter.com/contributte">@contributte</a>
 </p>
 
-## Usage
-
-To install the latest version of `{{ORGANIZATION}}/{{PROJECT}}` use [Composer](https://getcomposer.org).
-
-```
-composer require {{ORGANIZATION}}/{{PROJECT}}
-```
-
-## Documentation
-
-For details on how to use this package, check out our [documentation](.docs).
+`{{ORGANIZATION}}/{{PROJECT}}` is a bare Contributte library template for Nette projects. It provides a reusable package scaffold with a DI extension, service example, tests, QA tooling, and documentation placeholders.
 
 ## Versions
 
@@ -35,6 +25,64 @@ For details on how to use this package, check out our [documentation](.docs).
 |-------------|---------|----------|--------|---------|
 | dev         | `^0.1`  | `master` | `3.2+` | `>={{PHP_MIN_VERSION}}` |
 | stable      | `^0.1`  | `master` | `3.2+` | `>={{PHP_MIN_VERSION}}` |
+
+## Installation
+
+Install the package using [Composer](https://getcomposer.org).
+
+```bash
+composer require {{ORGANIZATION}}/{{PROJECT}}
+```
+
+Register the extension in your `config.neon` file.
+
+```neon
+extensions:
+  {{PROJECT}}: {{ORGANIZATION}}\{{PROJECT}}\DI\{{PROJECT}}Extension
+```
+
+## Configuration
+
+### Minimal Configuration
+
+```neon
+{{PROJECT}}:
+  # Add minimal configuration here
+```
+
+### Advanced Configuration
+
+Here is the list of all available options with their types.
+
+```neon
+{{PROJECT}}:
+  # option1: <type>
+  # option2: <type>
+```
+
+## Usage
+
+### Basic Usage
+
+```php
+<?php declare(strict_types=1);
+
+use {{ORGANIZATION}}\{{PROJECT}}\ExampleService;
+
+$service = $container->getByType(ExampleService::class);
+$service->doSomething();
+```
+
+### Advanced Usage
+
+```php
+// Add advanced usage examples here
+```
+
+## Examples
+
+> [!TIP]
+> Take a look at more examples in [contributte/playground](https://github.com/contributte/playground).
 
 ## Development
 
